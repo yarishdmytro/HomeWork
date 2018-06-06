@@ -38,18 +38,6 @@ $books = [
 ];
 
 
-
-
-
-/*$like = 'php';
-$result = array_filter($array, function ($item) use ($like) {
-	if (stripos($item['tags'], $like) !== false) {
-		return true;
-	}
-	return false;
-});
-
-var_dump($result);*/
 function filterByPhpTag($element){
 	if(!array_key_exists('tags',$element)){
 		return false;
